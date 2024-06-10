@@ -1,0 +1,47 @@
+body {
+    background-color: #14181c;
+    margin: 15px auto;
+    padding: 10px 10px;
+    max-width: 900px;
+    width: 80%
+}
+
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url('fonts/IBMPlexSans-Text.otf') format('truetype');
+}
+
+nav {
+    font-family: IBMPlexSans;
+}
+
+a {
+    margin-right: 20px;
+    color: #93B1CF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #AB859C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AB859C;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: IBMPlexSans;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: IBMPlexSans;
+    color: white;
+}
