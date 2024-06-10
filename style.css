@@ -3,12 +3,20 @@ body {
     margin: 15px auto;
     padding: 10px 10px;
     max-width: 900px;
-    width: 80%
+    width: 80%;
+    color: white;
+    font-family: IBMPlexSans;
+    font-size: 1.2rem
 }
 
 @font-face {
     font-family: 'IBMPlexSans';
-    src: url('fonts/IBMPlexSans-Text.otf') format('truetype');
+    src: url('assets/fonts/IBMPlexSans-Text.otf') format('truetype');
+}
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url('assets/fonts/IBMPlexSans-Bold.otf') format('truetype');
+    font-weight: bold
 }
 
 nav {
@@ -36,12 +44,22 @@ a:active {
 }
 
 h1 {
-    font-family: IBMPlexSans;
-    color: white;
     text-align: center;
 }
+
+h1, h2 {
+    font-family: IBMPlexSans;
+    color: white;
+    font-weight: bold;
+}
+
+
 
 p {
     font-family: IBMPlexSans;
     color: white;
+}
+
+span.email b {
+	display: none;
 }
