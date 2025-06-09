@@ -17,19 +17,28 @@
         <h1>Vincent X. Wang</h1>
     </header>
     <main>
-        <p>Hi! I'm a second-year at Rice University studying math. Next fall, I will be a student at the University of Chicago. </p>
+        <p>Hi! Next fall, I will be an undergrad at the University of Chicago. Previously, I was a student at Rice University.</p>
         <p></p>Some of my current (varied) interests are:</p>
         <ul>
           <li>Partial differential equations and differential geometry</li>
           <li>Combinatorics</li>
-          <li>Sublinear algorithms</li>
-          <li>Emulator design</li>
-          <li>Making matcha lattes</li>
+          <li>Learning theory</li>
         </ul>
+        <p id="randomText"></p>
+        <script>
+            const texts = [
+                "enjoy making matcha lattes with unusual flavors.",
+                "dislike cooking.",
+                "mediocrely play piano pieces exclusively written by Ravel.",
+                "enjoy getting blue shelled in Mario Kart."
+            ];
+            const randomIndex = Math.floor(Math.random() * texts.length);
+            document.getElementById('randomText').innerText = "In my free time, I " + texts[randomIndex];
+        </script>
         <p>The website is (indefinitely) under construction -- source code can be found <a href="https://github.com/vincentxwang/vincentxwang.github.io">here!</a></p>
         <h2>Contacts</h2>
         <ul style="list-style-type:disc;">
-            <li>Email: <span class="email">vw12@rice<b>.rice</b>.edu</span></li>
+            <li>Email: <span class="email">vincentxwang@uchicago<b>.uchicago</b>.edu</span></li>
             <li>Github: <a href="https://github.com/vincentxwang">https://github.com/vincentxwang</a></li>
         </ul>
     </main>
