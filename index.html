@@ -8,30 +8,31 @@
 
   <body>
     <header>
-        <nav>
-            <a href="/">home</a>
-            <a href="/assets/Vincent_Wang_Resume.pdf">cv</a>
-            <!-- <a href="blog.html">blog</a>
-            <a href="notes.html">notes</a> -->
-        </nav>
+      <nav style="display: flex; gap: 20px;">
+        <a href="/">home</a>
+        <a href="/assets/vxw_cv.pdf">cv</a>
+          <!-- <a href="blog.html">blog</a>
+          <a href="notes.html">notes</a> -->
+      </nav>
         <h1>Vincent X. Wang</h1>
     </header>
     <main>
-        <p>Hi! I am an undergrad at the University of Chicago. Previously, I was a student at Rice University.</p>
+        <p>Hi! I am an undergrad at the University of Chicago studying math and computer science, as well as a 2026 <a href="https://goldwaterscholarship.gov/">Goldwater Scholar</a>. Previously, I was a student at Rice University.</p>
         <p></p>Some of my current interests are:</p>
         <ul>
-          <li>Topology and geometry</li>
-          <li>Learning theory and machine learning</li>
-          <li>Theoretical computer science</li>
+          <li>Topological and geometric methods in machine learning</li>
+          <li>Differential privacy</li>
         </ul>
         <p id="randomText"></p>
         <script>
             const texts = [
                 "enjoy making matcha lattes with unusual flavors.",
                 "dislike cooking.",
+                "enjoy shopping at Trader Joe's.",
                 "mediocrely play piano pieces exclusively written by Ravel.",
                 "enjoy getting blue-shelled in Mario Kart.",
-                "enjoy drinking fruit tea."
+                "enjoy drinking fruit tea.",
+                "greed too much in Slay the Spire 2."
             ];
             const randomIndex = Math.floor(Math.random() * texts.length);
             document.getElementById('randomText').innerText = "In my free time, I " + texts[randomIndex];
